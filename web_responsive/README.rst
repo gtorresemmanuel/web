@@ -62,6 +62,10 @@ Features for mobile:
 
   .. image:: https://user-images.githubusercontent.com/973709/50965168-1d0ec500-14c9-11e9-82a0-dfee82ed0861.gif
 
+* Search panel is hidden on small screens.
+
+  .. image:: https://raw.githubusercontent.com/OCA/web/13.0/web_responsive/static/img/search_panel.gif
+
 Features for computers:
 
 * Keyboard shortcuts for easier navigation, **using ``Alt + Shift + [key]``**
@@ -103,6 +107,20 @@ Features for computers:
 
   .. image:: https://raw.githubusercontent.com/OCA/web/13.0/web_responsive/static/img/chatter.gif
 
+* When the chatter is configured on the side part, the document viewer fills that
+  part for side-by-side reading instead of full screen. You can still put it on full
+  width preview clicking on the new maximize button.
+
+  .. image:: https://raw.githubusercontent.com/OCA/web/13.0/web_responsive/static/img/document_viewer.gif
+
+* Bigger checkboxes in list view
+
+  .. image:: https://raw.githubusercontent.com/OCA/web/13.0/web_responsive/static/img/big_checkboxes.gif
+
+* Scrollable dropdowns
+
+  .. image:: https://raw.githubusercontent.com/OCA/web/13.0/web_responsive/static/img/dropdown_scroll.gif
+
 **Table of contents**
 
 .. contents::
@@ -125,8 +143,8 @@ Known issues / Roadmap
   you should reload the web client to get the full experience for that
   new size. This is Odoo's own limitation.
 * App navigation with keyboard.
-* Make it more beautiful. Maybe OCA-branded?
 * Handle long titles on forms in a better way
+* Standard sticky headers seems to not work properly on iOS Safari/Chrome (see #1626).
 
 Bug Tracker
 ===========
@@ -156,6 +174,7 @@ Contributors
 * Sergio Teruel <sergio.teruel@tecnativa.com>
 * Alexandre Díaz <dev@redneboa.es>
 * Mathias Markl <mathias.markl@mukit.at>
+* Iván Todorovich <ivan.todorovich@gmail.com>
 
 Maintainers
 ~~~~~~~~~~~
